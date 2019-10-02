@@ -11,7 +11,10 @@ def iteracion1(cadena):
         return [1]
 
 def iteracion2(cadena):
-    return [0,0]
+    if cadena== "":
+        return [0,0]
+    else:
+        return [1,1]
 
 
 class KataSimple:
