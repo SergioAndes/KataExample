@@ -39,5 +39,9 @@ def iteracion3(cadena):
         return [1, int(min(cadena)),int(max(cadena))]
 
 
+def iteracion4(cadena):
+    pass
+
+
 class KataSimple:
     pass
