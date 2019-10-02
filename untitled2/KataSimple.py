@@ -1,20 +1,23 @@
 def iteracion1(cadena):
-    if cadena== "":
+    if cadena == "":
         return [0]
     elif "," in cadena:
         numeros = cadena.split(",")
         cantidad = 0
         for num in numeros:
-            cantidad +=1
+            cantidad += 1
         return [cantidad]
     else:
         return [1]
 
+
 def iteracion2(cadena):
-    if cadena== "":
-        return [0,0]
+    if cadena == "":
+        return [0, 0]
+    elif "," in cadena:
+        return [2, 1]
     else:
-        return [1,1]
+        return [1, 1]
 
 
 class KataSimple:
