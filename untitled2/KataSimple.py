@@ -15,9 +15,14 @@ def iteracion2(cadena):
     if cadena == "":
         return [0, 0]
     elif "," in cadena:
-        return [2, 1]
+        numeros = cadena.split(",")
+        cantidad = 0
+        for num in numeros:
+            cantidad += 1
+
+        return [cantidad,int(min(numeros))]
     else:
-        return [1, 1]
+        return [1,int(min(cadena))]
 
 
 class KataSimple:
