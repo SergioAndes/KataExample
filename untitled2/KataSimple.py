@@ -24,6 +24,9 @@ def iteracion2(cadena):
     else:
         return [1,int(min(cadena))]
 
+def iteracion3(cadena):
+    pass
+
 
 class KataSimple:
     pass
