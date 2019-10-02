@@ -1,5 +1,9 @@
 def iteracion1(cadena):
-    return 0
+    if cadena== "":
+        return 0
+    else:
+        return 1
+
 
 
 class KataSimple:
