@@ -1,9 +1,12 @@
 from unittest import TestCase
 
-from KataSimple import iteracion1
+from KataSimple import iteracion1, iteracion2
 
 
-class kataSimpleTest(TestCase):
+class KataSimpleTest(TestCase):
+
+    # Devolver un arreglo con el número de elementos
+
     def test_iteracion1(self):
         self.assertEqual(iteracion1(""), [0], "Cadena vacia")
 
@@ -15,3 +18,8 @@ class kataSimpleTest(TestCase):
 
     def test_iteracion1_nNumeros(self):
         self.assertEqual(iteracion1("1,2,4,5"), [4], "N Numeros")
+
+    # Devolver un arreglo con el número de elementos y el mínimo
+
+    def test_iteracion2(self):
+        self.assertEqual(iteracion2(""), [0,0], "Cadena vacia")

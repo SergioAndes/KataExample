@@ -10,6 +10,8 @@ def iteracion1(cadena):
     else:
         return [1]
 
+def iteracion2(cadena):
+    pass
 
 
 class KataSimple:
