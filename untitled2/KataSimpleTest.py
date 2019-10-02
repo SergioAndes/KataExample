@@ -1,8 +1,8 @@
 from unittest import TestCase
 
-import KataSimple
+from KataSimple import iteracion1
 
 
 class kataSimpleTest(TestCase):
     def test_iteracion1(self):
-        self.assertEqual(KataSimple().iteracion1(""), 0, "Cadena vacia")
+        self.assertEqual(iteracion1(""), 0, "Cadena vacia")

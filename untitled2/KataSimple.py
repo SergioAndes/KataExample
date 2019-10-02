@@ -1,3 +1,6 @@
+def iteracion1(cadena):
+    return 0
+
+
 class KataSimple:
-    def iteracion1(cadena):
-        pass
+    pass
