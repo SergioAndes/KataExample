@@ -13,6 +13,5 @@ class kataSimpleTest(TestCase):
     def test_iteracion1_dosNumeros(self):
         self.assertEqual(iteracion1("1,2"), [2], "Dos numeros")
 
-    def test_iteracion1_dosNumeros(self):
+    def test_iteracion1_nNumeros(self):
         self.assertEqual(iteracion1("1,2,4,5"), [4], "N Numeros")
-
