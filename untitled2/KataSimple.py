@@ -25,7 +25,8 @@ def iteracion2(cadena):
         return [1,int(min(cadena))]
 
 def iteracion3(cadena):
-    pass
+    if cadena == "":
+        return [0,0,0]
 
 
 class KataSimple:
