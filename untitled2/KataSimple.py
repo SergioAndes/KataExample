@@ -42,6 +42,8 @@ def iteracion3(cadena):
 def iteracion4(cadena):
     if cadena == "":
         return [0, 0, 0,0]
+    else:
+        return [1, 1, 1, 1]
 
 
 class KataSimple:
