@@ -27,6 +27,8 @@ def iteracion2(cadena):
 def iteracion3(cadena):
     if cadena == "":
         return [0, 0, 0]
+    elif "," in cadena:
+        return[2,1,2]
     else:
         return [1,1,1]
 
