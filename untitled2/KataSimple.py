@@ -42,6 +42,8 @@ def iteracion3(cadena):
 def iteracion4(cadena):
     if cadena == "":
         return [0, 0, 0,0]
+    elif "," in cadena:
+        return [2, 1, 2, 1.5]
     else:
         return [1, 1, 1, 1]
 
