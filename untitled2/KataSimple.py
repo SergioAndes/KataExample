@@ -1,3 +1,3 @@
-class kata:
-    def numElementos(cadena):
+class KataSimple:
+    def iteracion1(cadena):
         pass
