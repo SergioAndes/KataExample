@@ -11,7 +11,7 @@ def iteracion1(cadena):
         return [1]
 
 def iteracion2(cadena):
-    pass
+    return [0,0]
 
 
 class KataSimple:
