@@ -51,3 +51,6 @@ class KataSimpleTest(TestCase):
 
     def test_iteracion4(self):
         self.assertEqual(iteracion4(""), [0,0,0,0], "Cadena vacia")
+
+    def test_iteracion4_unNumero(self):
+        self.assertEqual(iteracion4("1"), [1, 1, 1, 1], "Un numero")
