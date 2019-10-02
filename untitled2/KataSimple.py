@@ -40,7 +40,8 @@ def iteracion3(cadena):
 
 
 def iteracion4(cadena):
-    pass
+    if cadena == "":
+        return [0, 0, 0,0]
 
 
 class KataSimple:
