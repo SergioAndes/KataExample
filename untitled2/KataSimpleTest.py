@@ -26,3 +26,6 @@ class KataSimpleTest(TestCase):
 
     def test_iteracion2_unNuermo(self):
         self.assertEqual(iteracion2("1"), [1,1], "Un numero")
+
+    def test_iteracion2_dosNumeros(self):
+        self.assertEqual(iteracion2("1,2"), [2,1], "dos numeros")
